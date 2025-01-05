@@ -1,0 +1,116 @@
+
+body{
+margin: 0;
+}
+
+#nav{
+    width: 99%;
+    color: white;
+    height: 80px;
+    background-color: green;
+    display: flex;
+    padding: 10px;
+}
+
+a{
+    margin-top: 50px;
+}
+.login{
+    margin-top: 25px;
+    color: white;
+    margin-right: 10px;
+}
+.signup{
+    margin-top: 25px;
+    color: white;
+    margin-right: 10px;
+    width: 100%;
+    text-align: right;
+}
+#link{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+}
+#logo{
+    color: blanchedalmond;
+    font-size: large;
+
+}
+img{
+    width: 100%;
+   
+
+}
+
+.bg-img {
+    /* The image used */
+    display: flex;
+    background-image: url("https://img.freepik.com/free-vector/clean-medical-background_53876-119948.jpg");
+  height: 750px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    justify-content: center;
+  }
+  
+  /* Add styles to the form container */
+  #loginform{
+    position: absolute;
+    margin: 100px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: white;
+    text-align: center;
+   
+  }
+
+  input[type=text], input[type=password] {
+    width: 260px;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 290px;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+.firstbox{
+    /* height: 50px;
+    width: 100px; */
+   
+    margin-bottom: 10px;
+
+}
+.box{
+    margin-top: 20px;
+    height: 130px;
+    width: 70%;
+    background-color: #387c63;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    text-align: center;
+}
